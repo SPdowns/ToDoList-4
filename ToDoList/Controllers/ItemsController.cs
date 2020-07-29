@@ -14,7 +14,6 @@ namespace ToDoList.Controllers
     {
       _db = db;
     }
-
     public ActionResult Index()
     {
       List<Item> model = _db.Items.ToList();
